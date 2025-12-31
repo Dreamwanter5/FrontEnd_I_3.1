@@ -1,0 +1,77 @@
+body{
+    background-color: #EBFFE8 !important;
+}
+
+.left-panel {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    margin-top: 10%;
+}
+
+.right-panel {
+    background-color: #F5FFF4; 
+    width: 35% !important; 
+    margin-top: 20px;
+    padding: 5%;
+    position: absolute;
+    bottom: 2px;
+    right: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgba(15, 15, 15, 0.05) 0px 0px 0px 1px, rgba(15, 15, 15, 0.1) 0px 3px 3px, rgba(15, 15, 15, 0.2) 0px 9px 24px
+}
+
+#login-area{
+    display: flex;
+    align-items: flex-end;
+}
+
+.about-text{
+    font-size: 24px;
+    color: #787878;
+}
+
+#note-garden{
+    margin-top: 15px;
+    padding-left: none !important;
+    
+}
+
+#iconeplanta{
+    padding-right: 35%;
+}
+.main-title{
+    font-size: 36px;
+}
+
+.secondary-title{
+    font-size: 32px;
+    margin-top: 10%;
+    padding-right: 15%;
+}
+
+label{
+    font-size: 24px;
+}
+
+#login-area{
+    align-items: center;
+}
+
+#nomeCompletoCaixa{
+    margin-bottom: 68px;
+}
+
+#emailCaixa{
+    margin-bottom: 68px;
+}
+
+.btn{
+    width: 100%;
+    
+}
