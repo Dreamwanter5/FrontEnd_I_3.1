@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cores</title>
+</head>
+<body>
+    
+    <!-- Para começar, o sistema de cores no computador é composto de luzes, o RGB
+    RED
+    GREEN
+    BLUE
+    O nível da cor vai de 0 até 225 -->
+    <!-- Cada uma das cores é feita com a intensidade uma dessas 3 cores -->
+
+    <!-- Para montar essas cores, é usado também o sistema hexadecimal, usando uma ordem até 15 temos:
+     Binário: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15
+     Binário: 0, 1, 10, 11, 100, 110, 111, 1000, 1001, 1010, 1011, 1100, 1101, 1110, 1111
+    Hexadecimal: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, A, B, C, D, E, F-->
+    
+    <!-- Claro que existem cálculos para calcular um valor em cada linguagem, mas eles são complexos e não convém anotá-los, a importância e estabelecer a noção que eles estão correlacionados. -->
+
+    <!-- A conversão de binário para hexadecimal e vice-versa é um processo mais simples, uma vez que é possível realizar justa posição. (Tipo só ir juntando números):
+    96 hexadecimal = 10010110 
+    1011011 = 5B-->
+
+    <!-- As cores funcionam como #RRGGBB | as cores são inseridas com hexadecimais. -->
+
+    <!-- Vermelho: #FF0000
+    F é o número mais alto em hexadecimal, que leva até o máximo em binário
+    F: 1111
+    FF: 11111111 = 2^8 = 256 (0 .. 255) -->
+
+    <h1>Cores em HTML</h1>
+    <p>O exemplo a seguir, com o uso de uma tabela para organizar o layout de um site, não é mais praticável. Nos dias atuais, co o HTML5 e outras linguagens Front-End, é utilizado o desing chamado "tableless" (sem tabela).</p>
+    
+    <!-- Uma célular na primeira linha que ocupa 100% da página -->
+    <!-- Largura = width -->
+    <!-- altura = height -->
+    <!-- widTH  <-> heigHT -->
+    <table width="100%">
+        <tr>
+            <!--  BGCOLOR= Background color -->
+            <td colspan="5" height="70" bgcolor="#FF00000"></td>
+        </tr>
+        
+        <tr>
+        <td rowspan="5" bgcolor="#00FF00"></td>
+        <td colspan="3" height="30" bgcolor="#0000FF"></td>
+        </tr>    
+
+        <tr>
+            <td height="50" bgcolor="#FFFF00"></td>
+            <td bgcolor="#FF00FF"></td>
+            <td bgcolor="00FFFF"></td>
+        </tr>
+
+        <tr>
+            <td height="50" bgcolor="#000000"></td>
+            <td bgcolor="#666666"></td>
+            <td bgcolor="#D1D1D1"></td>
+        </tr>
+
+        <tr>
+            <td height="50" bgcolor="#FF9944"></td>
+            <td bgcolor="#22FF99"></td>
+            <td bgcolor="#5500DD"></td>
+        </tr>
+        
+    </table>
+
+</body>
+</html>

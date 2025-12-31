@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listas em HTML</title>
+</head>
+<body>
+    <h1>com marcadores e com numeração em HTML</h1> 
+    <p>A linguagem HTML permite a composição de listas, seja co marcadores, seja com marcadores, seja com numerração, a partir da própria linguagem. A decisão de usar marcadores ou numeração depende do conteúdo a ser elencado.</p>
+
+    <h2>Listas com marcadores</h2>
+    <p>As listas com amrcadores são utilizadas quando não há uma importância significativa na ordem de elementos da lista.</p>
+
+    <!-- ctrl + ; - cria comentário -->
+    <!-- OL = Ordered List -->
+    
+    <p> Lista não ordenada de hortaliças </p>
+    <!-- Lista com marcadores/UL = Unordered list -->
+    <!-- Os marcadores tem símbolos diferentes, eles podem ser: disc | circle | square -->
+    <!-- <ul type="Disc"> -->
+    <ul>
+        <!-- LI = List Item -->
+        <li>Alface</li>
+        <li>Rúcula</li>
+        <li>Chicória</li>
+        <li>Almeirão</li>
+        <li>Couve</li>
+    </ul>
+
+    <p>Exemplo: Cereais (Circle) </p>
+    <ul type="Disc">
+        <li>Arroz</li>
+        <li>Feijão</li>
+        <li>Soja</li>
+        <li>Milho</li>
+        <li>Trigo</li>
+    </ul>
+    
+    <p>Exemplo: Tubérculos (Square) </p>
+    <ul type="Square">
+        <li>Mandioca</li>
+        <li>Cenoura</li>
+        <li>Nabo</li>
+        <li>Rabanete</li>
+        <li>Gengibre</li>
+    </ul>
+
+    <h2>Listas com numeração</h2>
+    <p>As listas co numeração são muito semelhantes às listasa co marcadores. Neste caso, os marcadores que são todos iguais por toda a lista recebem uma ordem.</p>
+
+    <p>Exemplo: fast-food</p>
+    <!-- Lista com numeração/ ordered list -->
+    <!-- Tipos: 1 | A | a | I | i -->
+    <ol type="1">
+        <li>Cachorro quente</li>
+        <li>Hamburguer</li>
+        <li>Batata</li>
+        <li>Coxinha</li>
+        <li>Kibe</li>
+        <li>Risoles</li>
+        <li>Coxinha</li>
+        <li>Empada</li>
+        <li>Croquete</li>
+        <li>Pastel</li>
+    </ol>
+
+    <ol type="I">
+        <li>Cachorro quente</li>
+        <li>Hamburguer</li>
+        <li>Batata</li>
+        <li>Coxinha</li>
+        <li>Kibe</li>
+        <li>Risoles</li>
+        <li>Coxinha</li>
+        <li>Empada</li>
+        <li>Croquete</li>
+        <li>Pastel</li>
+    </ol>
+    <!-- Usar start significa de que nível você quer que a lista começa  -->
+    <ol Start= "6" type="A">
+        <li>Cachorro quente</li>
+        <li>Hamburguer</li>
+        <li>Batata</li>
+        <li>Coxinha</li>
+        <li>Kibe</li>
+        <li>Risoles</li>
+        <li>Coxinha</li>
+        <li>Empada</li>
+        <li>Croquete</li>
+        <li>Pastel</li>
+    </ol>
+    
+    <!-- Já reversed, serve para começar ao contrário -->
+    <ol Start= "9" reversed type="1">
+        <li>Cachorro quente</li>
+        <li>Hamburguer</li>
+        <li>Batata</li>
+        <li>Coxinha</li>
+        <li>Kibe</li>
+        <li>Risoles</li>
+        <li>Coxinha</li>
+        <li>Empada</li>
+        <li>Croquete</li>
+        <li>Pastel</li>
+    </ol>
+    <!-- Fim de Aula -->
+    
+</body>
+</html>

@@ -1,0 +1,43 @@
+body{
+    background-color: #a2f7a2;
+    font-family: Arial, sans-serif;
+}
+
+form{
+    background-color: #fff;
+    margin: 20px auto; /*propriedade para o distanciamento da margin, colocar apenas um número indica que o número selecionado vai afetar o lado abaixo do componente e sua parte superior, o "auto" que vem logo em seguida vai automaticamente centralizar o conteudo com base nas laterais.*/
+    padding: 20px; /*Padding é a distancia do conteudo das bordas para o centro */
+    width: 450px; /*Largura da caixa*/
+    border-radius: 10px; /*Border radius é o arredondamento de uma borda na tela. */
+    box-shadow: 0 0 10px rgba( 0, 0, 0, 0.3); /*isso é uma configuração de cores que vai servir para adicionar um sombreamento à caixa, isso é permitido pelo comando _box-shadow_ */
+}
+
+h1{
+    text-align: center; /*vai centralizar todos os h1 */
+    margin-bottom: 20px; /*adiciona uma margin que o h1 vai ter em relação ao conteúdo abaixo*/
+}
+
+label{
+    display: block;
+    margin-bottom: 10px; /*cria um distanciamento o label com conteúdo abaixo */
+}
+
+input[type="text"], 
+input[type="password"]{
+    display: block;
+    width: 95%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0 0 5px rgba( 0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+input[type="submit"]{
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}

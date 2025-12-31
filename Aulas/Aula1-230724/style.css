@@ -1,0 +1,19 @@
+h1 {
+    text-align: center;
+}
+
+div {
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center; 
+}
+
+#texto {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.form {
+    text-align: center;
+}

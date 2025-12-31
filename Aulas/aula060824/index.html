@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 06 08 2024</title>
+    <link rel="stylesheet" href="style.css">
+    
+    <!-- Aula 06-08-2024 -->
+    <!-- Para essa aula a gente ta fazendo o estilo do CSS dentro do arquivo de HTMl -->
+    <style>
+        body{
+            background-color: #a2f7a2;
+            font-family: Arial, sans-serif;
+        }
+
+    form{
+        background-color: #fff;
+        margin: 20px auto; /*propriedade para o distanciamento da margin, colocar apenas um número indica que o número selecionado vai afetar o lado abaixo do componente e sua parte superior, o "auto" que vem logo em seguida vai automaticamente centralizar o conteudo com base nas laterais.*/
+        padding: 20px; /*Padding é a distancia do conteudo das bordas para o centro */
+        width: 450px; /*Largura da caixa*/
+        border-radius: 10px; /*Border radius é o arredondamento de uma borda na tela. */
+        box-shadow: 0 0 10px rgba( 0, 0, 0, 0.3); /*isso é uma configuração de cores que vai servir para adicionar um sombreamento à caixa, isso é permitido pelo comando _box-shadow_ */
+    }
+
+    #h1login{
+        color: blue ;
+        font-size: 200px ;
+    };
+
+    h1{
+        text-align: center; /*vai centralizar todos os h1 */
+        margin-bottom: 20px; /*adiciona uma margin que o h1 vai ter em relação ao conteúdo abaixo*/
+    }
+    
+
+    label{
+        display: block;
+        margin-bottom: 10px; /*cria um distanciamento o label com conteúdo abaixo */
+    }
+
+    input[type="text"], input[type="password"]{
+        display: block;
+        width: 95%;
+        padding: 10px; /*Novamente, distanciamento do conteudo das bordas */
+        border-radius: 5px; 
+        border: none;
+        box-shadow: 0 0 5px rgba( 0, 0, 0, 0.1); /*novamente sombreamento*/
+        margin-bottom: 20px;
+    };
+
+    input[type="submit"]{
+        background-color: #4caf50;
+        counter-reset: #fff;
+        padding: 10px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer; /*Muda o cursosr*/
+    }
+
+    input[type="submit"]:hover {
+        background-color: #089c0d; /*Esse aqui acrescenta uma mudança de configuração enquanto o mouse estiver sob o botão */
+    }
+
+    img{
+        width: 8%;
+        height: 10%;
+        margin-top: 450px;
+        float: right;
+    }
+
+    .esqueceu-senha{
+        display: block;
+        font-size: 14px;
+        margin-top: 10px;
+    }
+
+    .botao-entrar{
+        text-align: center;
+    }
+    </style>
+</head>
+<body>
+    <h1 id="login">Login</h1> 
+    <!-- A diferença entre login e class está no fato de que id's não podem ser repetidos, enquanto classes podem afetar mais de um termo onde a classe está sendo utilizada -->
+    <!-- Para chamar uma classe se usa ".", já IDS usam "#" -->
+    <h1 class="h1ifpr">IFPR-JACAREZINHO</h1>
+    <H1 class="h1ifpr">Curso de Informática</H1>
+    <form action="">
+        <label for="email">Email:</label>
+        <input type="text" id="email" name="email" placeholder="Digite seu e-mail" maxlength="60"><br>
+        <label for="senha">Senha:</label>
+        <input type="password" id="Senha" name="senha" placeholder="Digite sua senha"><br>
+       
+        <div class="botao-entrar">
+             <input type="submit" value="Entrar">
+        </div>
+       <a href="#" class="esqueceu-senha">Esqueceu sua senha</a>
+       <img src="img/placeholder.png" alt="Logo-ifpr">
+    </form>
+   
+</body>
+</html>
